@@ -1,0 +1,92 @@
+TTestPostgresApp
+v7
+r0
+t337027560.100218
+cCheck dependencies
+cProcessPCH /var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch.gch TestPostgresApp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.o /Users/silam/Documents/TestPostgresApp/TestPostgresApp.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004DDDB0010000000000B38DD0
+t1306374145
+s11767248
+
+N/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m
+c000000004E666A6100000000000001FD
+t1315334753
+s509
+i<Foundation/Foundation.h>
+i<PostgresClientKit.framework/PostgresClientKit.h>
+
+N/Users/silam/Documents/TestPostgresApp/TestPostgresApp_Prefix.pch
+c000000004E666A0D00000000000000AC
+t1315334669
+s172
+i<Foundation/Foundation.h>
+
+N/Users/silam/Documents/TestPostgresApp/build/Debug/TestPostgresApp
+t2
+s0
+
+N/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.LinkFileList
+c000000004E666A610000000000000087
+t1315334753
+s135
+
+N/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.o
+t2
+s0
+
+N/var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch.gch
+t1315334759
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337027553#337027553#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.o /Users/silam/Documents/TestPostgresApp/TestPostgresApp.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337027559.619422
+e337027560.100156
+r0
+xCompileC
+xbuild/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.o
+x/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:2:58: error: PostgresClientKit.framework/PostgresClientKit.h: No such file or directory
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m: In function 'main':
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: 'FLXPostgresConnection' undeclared (first use in this function)
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: (Each undeclared identifier is reported only once
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: for each function it appears in.)
+o/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: 'theClient' undeclared (first use in this function)
+lSLF07#2@64"Compile /Users/silam/Documents/TestPostgresApp/TestPostgresApp.m337027559#337027560#0(691"/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:2:58: error: PostgresClientKit.framework/PostgresClientKit.h: No such file or directory/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m: In function 'main':/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: 'FLXPostgresConnection' undeclared (first use in this function)/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: (Each undeclared identifier is reported only once/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: for each function it appears in.)/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m:7: error: 'theClient' undeclared (first use in this function)3(4@74"PostgresClientKit.framework/PostgresClientKit.h: No such file or directory337027559#0#145#0(6@56"/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m337027553#2#0#2#0#28"*: No such file or directory0(4@63"'FLXPostgresConnection' undeclared (first use in this function)337027559#223#131#0(6@56"/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m337027553#7#0#7#0#43"'*' undeclared (first use in this function)0(4@51"'theClient' undeclared (first use in this function)337027559#572#119#0(6@56"/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m337027553#7#0#7#0#43"'*' undeclared (first use in this function)0(0#0#56"/Users/silam/Documents/TestPostgresApp/TestPostgresApp.m8386658438684291072#1632"    cd /Users/silam/Documents/TestPostgresApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-generated-files.hmap -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-own-target-headers.hmap -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-all-target-headers.hmap -iquote /Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-project-headers.hmap -F/Users/silam/Documents/TestPostgresApp/build/Debug -I/Users/silam/Documents/TestPostgresApp/build/Debug/include -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/DerivedSources/x86_64 -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/DerivedSources -include /var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch -c /Users/silam/Documents/TestPostgresApp/TestPostgresApp.m -o /Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/Objects-normal/x86_64/TestPostgresApp.o1#
+
+CLd /Users/silam/Documents/TestPostgresApp/build/Debug/TestPostgresApp normal x86_64
+r0
+
+CProcessPCH /var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch.gch TestPostgresApp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337027553.801153
+e337027559.619240
+r1
+xProcessPCH
+x/var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch.gch
+xTestPostgresApp_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile TestPostgresApp_Prefix.pch337027553#337027559#0(0"0(0#0#65"/Users/silam/Documents/TestPostgresApp/TestPostgresApp_Prefix.pch8243685682062586880#1508"    cd /Users/silam/Documents/TestPostgresApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-generated-files.hmap -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-own-target-headers.hmap -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-all-target-headers.hmap -iquote /Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/TestPostgresApp-project-headers.hmap -F/Users/silam/Documents/TestPostgresApp/build/Debug -I/Users/silam/Documents/TestPostgresApp/build/Debug/include -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/DerivedSources/x86_64 -I/Users/silam/Documents/TestPostgresApp/build/TestPostgresApp.build/Debug/TestPostgresApp.build/DerivedSources -c /Users/silam/Documents/TestPostgresApp/TestPostgresApp_Prefix.pch -o /var/folders/Mh/MhAzLvGYF9O260nu9OJiy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestPostgresApp_Prefix-brwgbopcoymdrmfsvpawpjztjsaq/TestPostgresApp_Prefix.pch.gch0#
+

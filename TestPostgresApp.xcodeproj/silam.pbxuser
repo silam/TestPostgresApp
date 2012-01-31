@@ -1,0 +1,144 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FFC3D72F1416A18D000C1ADE /* TestPostgresApp */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* TestPostgresApp */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* TestPostgresApp */,
+		);
+		codeSenseManager = FFC3D73F1416A197000C1ADE /* Code sense */;
+		executables = (
+			FFC3D72F1416A18D000C1ADE /* TestPostgresApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					560,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337055335;
+			PBXWorkspaceStateSaveDate = 337055335;
+		};
+		perUserProjectItems = {
+			FF95B79F1416A8D9001F6C95 /* PBXTextBookmark */ = FF95B79F1416A8D9001F6C95 /* PBXTextBookmark */;
+			FFB0DF5E141726AA00CEF09A /* XCBuildMessageTextBookmark */ = FFB0DF5E141726AA00CEF09A /* XCBuildMessageTextBookmark */;
+			FFB0DF5F141726AA00CEF09A /* PBXTextBookmark */ = FFB0DF5F141726AA00CEF09A /* PBXTextBookmark */;
+			FFB0DF60141726AA00CEF09A /* PBXTextBookmark */ = FFB0DF60141726AA00CEF09A /* PBXTextBookmark */;
+		};
+		sourceControlManager = FFC3D73E1416A197000C1ADE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* TestPostgresApp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 430}}";
+			sepNavSelRange = "{20, 12}";
+			sepNavVisRange = "{0, 623}";
+			sepNavWindowFrame = "{{184, 99}, {750, 558}}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* TestPostgresApp */ = {
+		activeExec = 0;
+		executables = (
+			FFC3D72F1416A18D000C1ADE /* TestPostgresApp */,
+		);
+	};
+	FF95B79F1416A8D9001F6C95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* TestPostgresApp.m */;
+		name = "TestPostgresApp.m: 1";
+		rLen = 12;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	FFB0DF5E141726AA00CEF09A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'FLXPostgresConnection' may not respond to '+connectionWithURL:'";
+		fRef = 08FB7796FE84155DC02AAC07 /* TestPostgresApp.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	FFB0DF5F141726AA00CEF09A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* TestPostgresApp.m */;
+		name = "TestPostgresApp.m: 11";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 0;
+	};
+	FFB0DF60141726AA00CEF09A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* TestPostgresApp.m */;
+		name = "TestPostgresApp.m: 1";
+		rLen = 12;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	FFC3D72F1416A18D000C1ADE /* TestPostgresApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TestPostgresApp;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FFC3D73E1416A197000C1ADE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FFC3D73F1416A197000C1ADE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
